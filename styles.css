@@ -1,0 +1,110 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #4ECCA3;
+}
+h2{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+.button-contener{
+  /* background-color: red; */
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 15rem;
+  background-color:rgb(37, 9, 37) ;
+  border-radius: 3px;
+  /* text-align: center; */
+}
+.button:hover{
+  background: linear-gradient(to right,rgb(37, 9, 37),rgb(176, 70, 70));
+  transition:all linear 1s  ;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+@media only screen and (max-width: 600px){
+  body{
+    background-color: black;
+    color: white;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  color: white;
+  }
+  p{
+    font-size: 2rem;
+  }
+  img{
+    height: 5rem;
+    width: auto;
+    margin: 0 2rem;
+  }
+  .button-contener{
+    /* background-color: red; */
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+}
